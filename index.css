@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 29, 29);
+    color: white;
+}
+#one
+{
+    display: block;
+    top:100px;
+    left: 100px;
+    position:absolute;
+}
+
+#two
+{
+    display: block;
+    top:50px;
+    position:absolute;  
+}
+.take
+{
+    display: flex;
+}
+i
+{
+width: 40px;
+height: 40px;
+background-color: white;
+color: black;
+text-align: center;
+padding:13px;
+border-radius: 50%;
+}
+.grid
+{
+    display: flex;
+    gap:800px;
+    justify-content: space-between;
+}
+.gap{
+    margin-right: 80%;
+}
+.floatRight{
+    float: right;
+}
+
+.CustomeWidth{
+    width: 95%;
+}
+.CustomeWidthInput{
+    width: 50%;
+}
+
+.inputDiv{
+    width: 200px;
+
+}
+.button
+{
+    height: 50px;
+    width:150px;
+    
+}
+#three
+{
+margin-top: 10px;
+}
+input[type="search"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+ .border
+  {
+    border: 2px;
+  }
+  .search-icon {
+    position: relative;
+      overflow: hidden;
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff, #00ffff);
+      background-size: 400% 400%;
+      color: white;
+      border-radius: 5px;
+      text-align: center;
+      animation: glitter 3s linear infinite;
+      float: right;
+  }
+  @keyframes glitter {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  .search-icon:hover {
+    background-color: #a725df;
+  }
+  input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
